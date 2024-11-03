@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jhony - Marmitas Saudáveis e Práticas</title>
+    <!-- Tailwind CSS via CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        /* Custom styles for the hero background */
+        .hero-bg {
+            background-image: url('img/hero.jpg'); /* URL para uma imagem de alimentos frescos ou paisagem natural */
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+    <!-- Hero Section with Background Image -->
+    <section class="hero-bg text-center py-24 text-white">
+        <h1 class="text-5xl font-bold">Jhonny - Marmitas Saudáveis para o Seu Dia a Dia</h1>
+        <p class="mt-4 text-lg font-light max-w-xl mx-auto">
+            Alimentação rápida, prática e feita com ingredientes frescos. A escolha certa para quem busca otimizar o tempo sem abrir mão da saúde.
+        </p>
+        <button class="mt-8 px-6 py-3 bg-green-700 text-white rounded-full shadow-lg transform transition hover:scale-105" onclick="location.href='payment.html'">
+            Compre Agora
+        </button>
+    </section>
+
+    <!-- Promoção Impactante -->
+    <section class="bg-yellow-500 text-center py-12 px-6 mt-10">
+        <h2 class="text-4xl font-bold text-gray-900">Promoção por Tempo Limitado!</h2>
+        <p class="text-xl text-gray-800 mt-2 mb-6">Aproveite 20% de desconto em todas as marmitas! Use o código <span class="font-bold text-green-700">SAUDAVEL20</span> no checkout.</p>
+        <button class="px-6 py-3 bg-green-700 text-white text-lg font-semibold rounded-full shadow-lg transform transition hover:scale-105" onclick="location.href='payment.html'">
+            Aproveitar Promoção
+        </button>
+    </section>
+
+    <!-- Benefits Section with Iconography -->
+    <section class="py-16 px-6">
+        <h2 class="text-4xl font-semibold text-center text-green-700">Por que Escolher Jhony?</h2>
+        <p class="text-center text-gray-600 mt-2 mb-8">Conheça os benefícios de nossas marmitas frescas e prontas para o consumo.</p>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-12 mt-6">
+            <div class="bg-white p-8 rounded-lg shadow-md text-center transition hover:shadow-lg">
+                <img src="img/hero.jpg" alt="Icon" class="w-25 mx-auto mb-4">
+                <h3 class="text-2xl font-bold text-green-600">Praticidade</h3>
+                <p>Ideal para quem tem uma rotina corrida e precisa de refeições prontas a qualquer momento.</p>
+            </div>
+            <div class="bg-white p-8 rounded-lg shadow-md text-center transition hover:shadow-lg">
+                <img src="img/hero.jpg" alt="Icon" class="w-25 mx-auto mb-4">
+                <h3 class="text-2xl font-bold text-green-600">Qualidade</h3>
+                <p>Ingredientes frescos e selecionados, preparados para garantir sabor e saúde.</p>
+            </div>
+            <div class="bg-white p-8 rounded-lg shadow-md text-center transition hover:shadow-lg">
+                <img src="img/hero.jpg" alt="Icon" class="w-25 mx-auto mb-4">
+                <h3 class="text-2xl font-bold text-green-600">Economia</h3>
+                <p>Preços acessíveis que cabem no seu bolso, com uma alimentação saudável ao seu alcance.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Table Section with Highlighted Card -->
+    <section class="py-16 px-6 bg-gray-50">
+        <h2 class="text-4xl font-semibold text-center text-green-700">Escolha sua Marmita</h2>
+        <p class="text-center text-gray-600 mt-2 mb-8">Opções para todas as necessidades e preferências.</p>
+        <div class="flex justify-center">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl">
+                <div class="bg-white p-8 rounded-lg shadow-md text-center transition hover:shadow-lg">
+                    <h3 class="text-xl font-bold text-green-600">Marmita Pequena</h3>
+                    <p class="text-gray-700 mt-2">Ideal para refeições rápidas</p>
+                    <p class="text-2xl font-bold text-green-700 mt-4">R$ 20</p>
+                </div>
+                <div class="bg-green-700 text-white p-8 rounded-lg shadow-lg text-center transform scale-105">
+                    <h3 class="text-xl font-bold">Marmita Média</h3>
+                    <p class="mt-2">Perfeita para o almoço</p>
+                    <p class="text-2xl font-bold mt-4">R$ 30</p>
+                    <button class="mt-6 px-4 py-2 bg-white text-green-700 rounded-full shadow transform transition hover:scale-105">Escolha Agora</button>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-md text-center transition hover:shadow-lg">
+                    <h3 class="text-xl font-bold text-green-600">Marmita Grande</h3>
+                    <p class="text-gray-700 mt-2">Satisfação garantida</p>
+                    <p class="text-2xl font-bold text-green-700 mt-4">R$ 40</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
